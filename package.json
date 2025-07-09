@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
     "resp": "nodemon 5.response.js",
-    "req": "nodemon 6.request.js"
+    "req": "nodemon 6.request.js",
+    "ejs": "nodemon 7.ejs.js"
   },
   "author": "sharad",
   "license": "ISC",

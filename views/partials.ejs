@@ -1,0 +1,185 @@
+            <%-include('component/header')%>
+            <%-include('component/sidebar')%>
+
+            <!-- Main Content -->
+            <main class="col-md-9 col-lg-10 ms-sm-auto main-content">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Dashboard</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group me-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                            <i class="fas fa-calendar"></i> This week
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-3">
+                        <div class="card text-white bg-primary mb-3">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="card-title">Total Users</h5>
+                                        <h2 class="mb-0">1,254</h2>
+                                    </div>
+                                    <i class="fas fa-users fa-3x"></i>
+                                </div>
+                                <p class="card-text mt-2"><small>12% increase from last month</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-white bg-success mb-3">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="card-title">Revenue</h5>
+                                        <h2 class="mb-0">$8,520</h2>
+                                    </div>
+                                    <i class="fas fa-dollar-sign fa-3x"></i>
+                                </div>
+                                <p class="card-text mt-2"><small>8% increase from last month</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-white bg-warning mb-3">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="card-title">Orders</h5>
+                                        <h2 class="mb-0">342</h2>
+                                    </div>
+                                    <i class="fas fa-shopping-cart fa-3x"></i>
+                                </div>
+                                <p class="card-text mt-2"><small>5% increase from last month</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-white bg-danger mb-3">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h5 class="card-title">Pending</h5>
+                                        <h2 class="mb-0">24</h2>
+                                    </div>
+                                    <i class="fas fa-exclamation-triangle fa-3x"></i>
+                                </div>
+                                <p class="card-text mt-2"><small>3% decrease from last month</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5>Recent Activity</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>User</th>
+                                                <th>Activity</th>
+                                                <th>Time</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>John Doe</td>
+                                                <td>Purchased Product A</td>
+                                                <td>2 mins ago</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Jane Smith</td>
+                                                <td>Created new account</td>
+                                                <td>15 mins ago</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Robert Johnson</td>
+                                                <td>Submitted a ticket</td>
+                                                <td>32 mins ago</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Emily Davis</td>
+                                                <td>Completed payment</td>
+                                                <td>1 hour ago</td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>Michael Wilson</td>
+                                                <td>Left a review</td>
+                                                <td>2 hours ago</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5>Featured Products</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-6 mb-3">
+                                        <div class="card h-100">
+                                            <img src="https://via.placeholder.com/300x200?text=Product+1" class="card-img-top" alt="Product 1">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Wireless Headphones</h6>
+                                                <p class="card-text text-success">$99.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <div class="card h-100">
+                                            <img src="https://via.placeholder.com/300x200?text=Product+2" class="card-img-top" alt="Product 2">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Smart Watch</h6>
+                                                <p class="card-text text-success">$199.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <div class="card h-100">
+                                            <img src="https://via.placeholder.com/300x200?text=Product+3" class="card-img-top" alt="Product 3">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Bluetooth Speaker</h6>
+                                                <p class="card-text text-success">$59.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <div class="card h-100">
+                                            <img src="https://via.placeholder.com/300x200?text=Product+4" class="card-img-top" alt="Product 4">
+                                            <div class="card-body">
+                                                <h6 class="card-title">Phone Case</h6>
+                                                <p class="card-text text-success">$19.99</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <%-include('component/footer')%>
